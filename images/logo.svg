@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 120">
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="500ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 0, 0
+		    30, 0
+		    30, 1
+		    0, 1
+		    Z;
+
+		    M 0, 0
+		    30, 0
+		    30, 120
+		    0, 120
+		    Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.11s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="650ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 60, 0
+		    90, 0
+		    90, 1
+		    60, 1
+		    Z;
+
+		    M 60, 0
+		    90, 0
+		    90, 120
+		    60, 120
+		     Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.12s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="770ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 120, 0
+		    150, 0
+		    150, 1
+		    120, 1
+		    Z;
+
+		    M 120, 0
+		    150, 0
+		    150, 120
+		    120, 120
+		     Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.13s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="860ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 180, 0
+		    210, 0
+		    210, 1
+		    180, 1
+		    Z;
+
+		    M 180, 0
+		    210, 0
+		    210, 120
+		    180, 120
+		     Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.14s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="920ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 240, 0
+		    270, 0
+		    270, 1
+		    240, 1
+		    Z;
+
+		    M 240, 0
+		    270, 0
+		    270, 120
+		    240, 120
+		     Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.15s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+	<animate 
+         attributeName="d" 
+         dur="950ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 300, 0
+		    330, 0
+		    330, 1
+		    300, 1
+		    Z;
+
+		    M 300, 0
+		    330, 0
+		    330, 120
+		    300, 120
+		     Z"/>
+</path>
+
+<path fill="#efefe9">
+
+	<animate
+     attributeName="fill"
+     dur="0.8s"
+     begin="0.16s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+
+	<animate 
+         attributeName="d" 
+         dur="965ms" 
+         repeatCount="1"
+         fill="freeze"
+         values="
+			M 360, 0
+		    390, 0
+		    390, 1
+		    360, 1
+		    Z;
+
+		    M 360, 0
+		    390, 0
+		    390, 120
+		    360, 120
+		     Z"/>
+</path>
+
+<circle id="orange-circle" r="30" cx="450" cy="0" fill="#efefe9"/>
+  
+  <animate 
+   xlink:href="#orange-circle"
+   attributeName="cy"
+   from="-100"
+   to="90" 
+   dur="1.8s"
+   begin="0.5s"
+   values="-100; 90; 20;90; 70; 90; 80; 90"
+	keyTimes="0; 0.15; 0.3; 0.45; 0.6; 0.75; 0.9; 1"
+	keySplines=".42 0 1 1;
+        0 0 .59 1;
+        .42 0 1 1;
+        0 0 .59 1;
+        .42 0 1 1;
+        0 0 .59 1;
+        .42 0 1 1;
+        0 0 .59 1;"
+   fill="freeze" 
+   id="circ-anim"/>
+
+   <animate
+   	 xlink:href="#orange-circle"
+     attributeName="fill"
+     dur="2s"
+     begin="0.6s"
+     repeatCount="1"
+     fill="freeze"
+     values="#efefe9;
+             #6f6f6c;"/>
+
+   <!-- <animate 
+   xlink:href="#orange-circle"
+   attributeName="cy"
+   from="-50"
+   to="90" 
+   dur="2s"
+   begin="0s"
+   values="-50; 90; 20; 90; 60; 90;"
+	keyTimes="0; 0.15; 0.3; 0.5; 0.6; 1"
+	keySplines=".42 0 1 1;
+        0 0 .59 1;
+        .42 0 1 1;
+        0 0 .59 1;
+        .42 0 1 1;"
+   fill="freeze" 
+   id="circ-anim"/> -->
+</svg>
